@@ -3,33 +3,33 @@
 
 int scrabble(int ch){
   switch(ch){
-    case 'A': return 1;
-    case 'B': return 3;
-    case 'C': return 3;
-    case 'D': return 2;
-    case 'E': return 1;
-    case 'F': return 4;
-    case 'G': return 2;
-    case 'H': return 4;
-    case 'I': return 1;
-    case 'J': return 8;
-    case 'K': return 5;
-    case 'L': return 1;
-    case 'M': return 3;
-    case 'N': return 1;
-    case 'O': return 1;
-    case 'P': return 3;
-    case 'Q': return 10;
-    case 'R': return 1;
-    case 'S': return 1;
-    case 'T': return 1;
+    case 'A':
+    case 'E':
+    case 'I':
+    case 'L':
+    case 'N':
+    case 'O':
+    case 'R':
+    case 'T':
+    case 'S':
     case 'U': return 1;
-    case 'V': return 4;
-    case 'W': return 4;
-    case 'X': return 8;
+    case 'D':
+    case 'G': return 2;
+    case 'B':
+    case 'C':
+    case 'M':
+    case 'P': return 3;
+    case 'F':
+    case 'H':
+    case 'V':
+    case 'W':
     case 'Y': return 4;
+    case 'K': return 5;
+    case 'J':
+    case 'X': return 8;
+    case 'Q':
     case 'Z': return 10;
-    default:  return 0;
+    default : return 0;
   }
 }
 
